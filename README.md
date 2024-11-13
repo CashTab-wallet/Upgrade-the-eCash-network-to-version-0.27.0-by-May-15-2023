@@ -1,8 +1,8 @@
 # Upgrade the eCash network to version 0.27.0 (May 15 2023)
 ![Logo](https://i.ibb.co/PWW2wLW/Logo-with-dark-blue-text.png)
 
-### Do I need to upgrade my [CashTab wallet](https://cashtab.cash/)?
-The network upgrade only affects full nodes. Other eCash software, including wallets such as [CashTab](https://cashtab.cash/)  are not affected by the network upgrade. It is safe to use a wallet during this period
+### Do I need to upgrade my [CashTab wallet](https://ecashtab.org/)?
+The network upgrade only affects full nodes. Other eCash software, including wallets such as [CashTab](https://ecashtab.org/)  are not affected by the network upgrade. It is safe to use a wallet during this period
 
 ### Exactly when will the upgrade activate?
 In order to activate reliably at a predictable time, the network upgrade uses the "Median Time Past" mechanism. The upgrade activates when the median of the last 11 blocks reaches timestamp 1684152000 (12:00:00 UTC on May 15th, 2023). This means that the upgrade doesn't actually activate exactly at that time, but typically about one hour later, when 6 blocks with timestamps greater than the activation time have been produced.
